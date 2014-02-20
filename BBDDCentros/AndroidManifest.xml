@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bbddcentros"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bbddcentros.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.Mestres"
+            android:label="title_activity_profesores" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.Personal"
+            android:label="title_activity_personal" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.Centres"
+            android:label="title_activity_centros" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.ConsultaCentres"
+            android:label="title_activity_centros" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.NovaBase"
+            android:label="title_activity_centros" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.VisualitzaCentres"
+            android:label="title_activity_mostrar_centro" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.AfegirCentres"
+            android:label="title_activity_insertar_centros" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.ConsultaPersonal"
+            android:label="title_activity_consulta_personal" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.MostrarPersonal"
+            android:label="title_activity_mostrar_personal" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.InsertarPersonal"
+            android:label="title_activity_insertar_personal" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.ConsultaProfesores"
+            android:label="title_activity_consulta_profesores" >
+        </activity>
+        <activity
+            android:name="com.example.bdcentrosprofesores.MostrarProfesores"
+            android:label="title_activity_mostrar_profesores" >
+        </activity>
+    </application>
+
+</manifest>
